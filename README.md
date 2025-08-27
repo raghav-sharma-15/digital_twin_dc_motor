@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Topic](https://img.shields.io/badge/Digital%20Twin-Predictive%20Maintenance-informational.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16959525.svg)](https://doi.org/10.5281/zenodo.16959525)
 
 **TL;DR:** Physics-informed simulation of DC-motor degradation over 10,000 hours; logs temperature/vibration/load, estimates health & RUL, and triggers maintenance to minimize cost.
 
