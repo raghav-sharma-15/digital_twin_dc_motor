@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Sharma"
+  given-names: "Raghav"
+  orcid: "https://orcid.org/0009-0007-7440-3442"
+title: "digital_twin_dc_motor"
+version: "1.0.0"
+doi: "10.5281/zenodo.16959525"
+date-released: "2025-08-26"
+url: "https://github.com/raghav-sharma-15/digital_twin_dc_motor"
