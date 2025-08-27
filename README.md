@@ -1,6 +1,20 @@
-# Digital Twin DC Motor Simulation
+# Digital Twin of a DC Motor — 10,000-hour Simulation for Predictive Maintenance
 
-![MIT License](https://img.shields.io/badge/license-MIT-green)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Topic](https://img.shields.io/badge/Digital%20Twin-Predictive%20Maintenance-informational.svg)
+
+**TL;DR:** Physics-informed simulation of DC-motor degradation over 10,000 hours; logs temperature/vibration/load, estimates health & RUL, and triggers maintenance to minimize cost.
+
+![Snapshot (10,000-hr run)](docs/summary_10k.png)
+
+### Results at a glance (example run)
+- Final health: **__%**
+- Maintenance events triggered: **__**
+- Estimated RUL at final hour: **__ hrs**
+- Cost saved vs. reactive: **__%**  *(simulated)*
+
+> Reproduce: `python -m src.main` → writes outputs & figures in `outputs/` and `docs/`.
 
 This repository contains a modularized Python simulation of a DC motor’s degradation (health) and remaining useful life (RUL) over time, based on sensor-generated inputs. The code is organized under the `src/` directory to follow best practices in project structure.
 
