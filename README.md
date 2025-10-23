@@ -15,8 +15,8 @@
 - Estimated RUL at final hour: health plateaued near threshold, no catastrophic failure
 - Thermal stability: motor <55 °C throughout (threshold = 75 °C)
 - Unplanned downtime: **0 h** (vs. 72 h under reactive)
-- Total lifecycle cost: **$768** (PdM) vs. **$1,483.20** (reactive)
-- Net savings with PdM: **$715.20** (≈48.2%)  
+- Total lifecycle cost: **$662** (PdM) vs. **$1,483.20** (reactive)
+- Net savings with PdM: **$776** (≈54%)  
 - External validity: simulated vibration features correlated >0.88 with NASA IMS bearing dataset (early/mid degradation)
 
 > Reproduce: `python -m src.main` → writes outputs & figures in `outputs/` and `docs/`.
